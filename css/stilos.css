@@ -201,9 +201,13 @@
 footer{
     display: flex;
     background-color:black ;
-    height: 100px;
+    height: 200px;
     justify-content:center ;
     align-items: center;
+    /*para q se enconda por debajo del cuerpo*/
+    position: sticky;
+    z-index: -1;
+    bottom: 0;
 }
 footer p{
     font-size: 1.5rem;
