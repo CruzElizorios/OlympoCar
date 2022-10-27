@@ -1,87 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historia | Olympo Car</title>
-    <link rel="stylesheet" href="../css/stilos.css">
-    <link rel="icon" href="../assets/imagen/carro-mano.png">
+    <title>Nuetra Historia | Olympo Car</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" href="../assets/imagenes/carro-mano.png">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-
-<body>
+<body class="estructura_nuestraHistoria">
     <header>
-        <nav class="menu_nuestraHistoria">
-            <section class="menu_container">
-                <div class="menu_logo">
-                    <img  src="../assets/imagen/deportvLogo.png">
-                    <h1 >Olympo Car</h1>
+        <nav class="navbar navbar-expand-md navbar-dark ">
+            <div class="container-fluid">
+                <!--icono-->
+                <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <img src="../assets/imagenes/deportvLogo.png" alt="">
+                        <span class="text">Olympo Car</span>
+                    </div>
+                </a>
+                <!--botones para celu-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--menu  desplegable-->
+                <div class="collapse navbar-collapse"  id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="../index.html" class="nav-link" >Inicio</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./vehiculos.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Vehículos
+                            </a>
+                            <ul class="dropdown-menu" id="menu-desplegable">
+                                <li><a class="dropdown-item" href="../paginas/vehiculos.html">vehiculos</a></li>
+                                <li><a class="dropdown-item" href="../paginas/vehiculos.html#Destacados">destacados</a></li>
+                                <li><a class="dropdown-item" href="../paginas/vehiculos.html#Autos">autos</a></li>
+                                <li><a class="dropdown-item" href="../paginas/vehiculos.html#Suv">suvs</a></li>
+                                <li><a class="dropdown-item" href="../paginas/vehiculos.html#Pickup">picks up</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="./nuestra-historia.html" class="nav-link active">Nuestra Historia</a>
+                        </li>
+                        <li class="nav-item"><a href="./encontranos.html" class="nav-link">Encontranos</a></li>
+                        <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
+                    </ul>
                 </div>
-                <ul class="menu-horizontal">
-                    <li>
-                        <a href="../index.html" >Inicio</a>
-                    </li>
-    
-                    <li>
-                        <a href="./vehiculos.html" >Vehiculos</a>
-    
-                        <ul class="menu-vertical">
-                            <li>
-                                <a href="./vehiculos.html#Autos" >autos</a>
-                            </li>
-                            <li >
-                                <a href="./vehiculos.html#Suv" >suv</a>
-                            </li>
-                            <li >
-                                <a href="./vehiculos.html#Pickup" >pick up</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li >
-                        <a href="./nuestra-historia.html" >Nuestra Historia</a>
-                    </li>
-                    <li >
-                        <a href="./encontranos.html" >Encontranos</a>
-                    </li>
-                    <li >
-                        <a href="./contacto.html" >Contacto</a>
-                    </li>
-                </ul>
-            </section>
+            </div>
         </nav>
+    <div class="portada_nuestraHistoria">
+        <img src="../assets/imagenes/fiat600-16-9.jpg" alt="">
+    </div>
     </header>
+
     <main class="cuerpo_nuestraHistoria">
         <section>
             <h2>
                 Nuestros Comienzos
             </h2>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid adipisci totam similique quis modi! Dignissimos, rerum omnis! Commodi quibusdam cum aut, in molestiae error soluta adipisci porro aperiam suscipit placeat perferendis iusto corporis sapiente possimus quisquam doloremque hic, architecto aspernatur rem laboriosam nihil. Voluptates dolorem cum possimus modi aut, ea cumque? Consequatur quo, blanditiis in placeat animi odio harum a doloribus, commodi aspernatur possimus expedita tempora eligendi nulla fuga iste numquam magnam veritatis cupiditate! Nemo accusamus error enim inventore temporibus eius et quam excepturi sequi blanditiis magni dolor soluta voluptate, saepe vero neque a cum debitis delectus nisi accusantium labore.
-            </p>
-            <img src="" alt="">
+            <div class="contenedor_nuestraHistoria">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid adipisci totam similique quis modi! Dignissimos, rerum omnis! Commodi quibusdam cum aut, in molestiae error soluta adipisci porro aperiam suscipit placeat perferendis iusto corporis sapiente possimus quisquam doloremque hic, umquam magnam veritatis cupiditate! Nemo accusamus error enim inventore temporibus eius et quam excepturi sequi blanditiis magni dolor soluta voluptate, saepe vero neque a cum debitis delectus nisi accusantium labore.
+                </p>
+                <img src="../assets/imagenes/garage.jpg" alt="">
+            </div>
         </section>
         <section>
             <h2>
                 Nuestro futuro
             </h2>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quasi accusantium tempora exercitationem voluptas alias ad sunt consequuntur! Aperiam nostrum reprehenderit quasi rerum totam ipsam magnam, laboriosam, quae vel doloremque quo cumque rem dolorum tempora voluptatem, ut blanditiis! Laborum tenetur enim libero facere exercitationem quidem quisquam quibusdam, nesciunt esse non, quo nihil impedit similique ratione quasi fugit laudantium corporis harum! Quae totam fuga laudantium labore? Ipsum autem praesentium aperiam magnam, incidunt ratione facilis. Magni quae molestias, adipisci placeat tenetur fuga tempore inventore sunt odio. Cupiditate quisquam ad autem quos voluptas nemo suscipit sit sunt unde, corporis accusamus! Alias est consectetur odio autem. Quia mollitia doloremque temporibus ab necessitatibus reiciendis dolor, exercitationem minima quam voluptatum ducimus tempore dignissimos animi dolorem sapiente asperiores debitis voluptatibus, culpa deserunt. Corporis numquam libero consectetur tempora quisquam aspernatur voluptatum voluptates veritatis architecto quidem. Minus consequuntur dolorem aspernatur commodi hic? Illo at repellendus ratione quasi, itaque error officia saepe enim nam ipsum distinctio id porro corporis non sed dolorem ab. Reiciendis accusamus quos omnis eaque ipsum tempore tempora iste veritatis facilis pariatur, repellat asperiores molestiae, consequuntur animi voluptatum culpa. Nesciunt laborum molestias magnam adipisci cupiditate omnis, aliquid illo iste reprehenderit, voluptatibus dignissimos sequi asperiores at, sunt dolor?
-            </p>
-            <img src="" alt="">
+            <div class="contenedor_nuestraHistoria">
+                <img   class="nuestroFuturo" src="../assets/imagenes/concesionariarecort.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quasi accusantium tempora exercitationem voluptas alias ad sunt consequuntur! Aperiam nostrum reprehenderit quasi rerum totam ipsam magnam, laboriosam, quae vel doloremque quo cumque rem dolorum tempora voluptatem, ut blanditiis! Laborum tenetur enim libero facere exercitationem quidem quisquam quibusdam, nesciunt esse non, quo nihil impedit similique ratione quasi fugit laudantium corporis harum! Quae totam fuga laudantium labore? Ipsum autem praesentium aperiam magnam, incidunt ratione facilis. Magni quae molestias, adipisci placeat tenetur fuga tempore inventore sunt odio. Cupiditate quisquam ad autem quos voluptas nemo suscipit sit sunt unde, corporis accusamus! Alias est consectetur odio autem. epellat asperiores molestiae, consequuntur animi voluptatum culpa. Nesciunt laborum molestias magnam adipisci cupiditate omnis, aliquid illo iste reprehenderit, voluptatibus dignissimos sequi asperiores at, sunt dolor?
+                </p>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>todos los derechos reservados©</p>
-        <div>
-            <a href="https://es-la.facebook.com/"><img src="../assets/imagen/facebook2.png" alt=""></a>
-            <a href="https://web.whatsapp.com/"><img src="../assets/imagen/whatsapp32.png" alt=""></a>
-            <a href="https://web.telegram.org/z/"><img src="../assets/imagen/telegrama.png" alt=""></a>
-            <a href="https://www.instagram.com/"><img src="../assets/imagen/instagram.png" alt=""></a>
+        <div class="contenedor_footer">
+            <div class="caja_footer">
+                <div class="logo_footer">
+                    <img src="../assets/imagenes/deportvLogo.png" alt="">
+                    <span class="text">Olympo Car</span>
+                </div>
+            </div>
+            <div class="caja_footer">
+                <h2>Compañia</h2>
+                <a href="./nuestra-historia.html">Acerca de Nosotros</a>
+                <a href="./encontranos.html">Estamos en</a>
+                <a href="./contacto.html">Contacto</a>
+                <a href="#">Terminos y Condiciones</a>
+            </div>
+            <div class="caja_footer">
+                <h2>Redes Sociales</h2>
+                <a href="https://es-la.facebook.com/"><img src="../assets/imagenes/facebook2.png" alt="">facebook</a>
+                <a href="https://web.whatsapp.com/"><img src="../assets/imagenes/whatsapp32.png" alt="">whatsapp</a>
+                <a href="https://web.telegram.org/z/"><img src="../assets/imagenes/telegrama.png" alt="">telegram</a>
+                <a href="https://www.instagram.com/"><img src="../assets/imagenes/instagram.png" alt="">instagram</a>
+            </div>
+            <div class="caja_footer">
+                <h2>Suscríbete!</h2>
+                <p>recibe las últimas noticias y ofertas de la semana</p>
+                <form action="">
+                    <div>
+                        <label for="correo"></label><br>
+                        <input type="email" name="correo" placeholder="correo electrónico">
+                    </div>
+                    <input id="boton_footer"  type="submit">
+                </form>
+            </div>
+        </div>
+        <div class="caja_copy">
+            <hr>
+            <p>Todos los derechos reservados ©2022 <b>Olympo Car</b></p>
         </div>
     </footer>
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 </html>

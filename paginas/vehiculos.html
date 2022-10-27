@@ -1,82 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vehiculos | Olympo Car</title>
-    <link rel="stylesheet" href="../css/stilos.css">
-    <link rel="icon" href="../assets/imagen/carro-mano.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="icon" href="../assets/imagenes/carro-mano.png">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body class="estructura">
     <header>
-        <nav class="menu_vehiculos">
-            <section class="menu_container">
-                <div class="menu_logo">
-                    <img  src="../assets/imagen/deportvLogo.png">
-                    <h1 >Olympo Car</h1>
+        <nav class="navbar navbar-expand-md navbar-dark ">
+            <div class="container-fluid">
+                <!--icono-->
+                <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <img src="../assets/imagenes/deportvLogo.png" alt="">
+                        <span class="text">Olympo Car</span>
+                    </div>
+                </a>
+                <!--botones para celu-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--menu  desplegable-->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="./vehiculos.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Vehículos
+                            </a>
+                            <ul class="dropdown-menu" id="menu-desplegable">
+                                <li><a class="dropdown-item" href="#Destacados">destacados</a></li>
+                                <li><a class="dropdown-item" href="#Autos">autos</a></li>
+                                <li><a class="dropdown-item" href="#Suv">suvs</a></li>
+                                <li><a class="dropdown-item" href="#Pickup">picks up</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="./nuestra-historia.html" class="nav-link">Nuestra Historia</a>
+                        </li>
+                        <li class="nav-item"><a href="./encontranos.html" class="nav-link">Encontranos</a></li>
+                        <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
+                    </ul>
                 </div>
-                <ul class="menu-horizontal">
-                    <li>
-                        <a href="../index.html" >Inicio</a>
-                    </li>
-    
-                    <li>
-                        <a href="./vehiculos.html" >Vehiculos</a>
-    
-                        <ul class="menu-vertical">
-                            <li>
-                                <a href="#Autos" >autos</a>
-                            </li>
-                            <li >
-                                <a href="#Suv" >suv</a>
-                            </li>
-                            <li >
-                                <a href="#Pickup" >pick up</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li >
-                        <a href="./nuestra-historia.html" >Nuestra Historia</a>
-                    </li>
-                    <li >
-                        <a href="./encontranos.html" >Encontranos</a>
-                    </li>
-                    <li >
-                        <a href="./contacto.html" >Contacto</a>
-                    </li>
-                </ul>
-            </section>
+            </div>
         </nav>
+    <div class="portada_vehiculos">
+        <img src="../assets/imagenes/toyota-paisaje.jpg" alt="">
+    </div>
     </header>
 
     <main class="cuerpo_vehiculos">
         <h1>Vehiculos</h1>
-        <img src="../assets/imagen/VendedorLlve.png" alt="">
-        <h2 id="dest">Destacados de la semana:</h2>
+        <img src="../assets/imagen/VendedorLlave.png" alt="">
+        <h2 id="dest">Destacados de la semana:<a name="Destacados"></a></h2>
         <section class="cuerpo_vehiculos_estructura">
             <div class="card_destacados_vehiculos">
-                <img src="../assets/imagen/ford-focus.jpg" alt="">
+                <img src="../assets/imagenes/ford-focus.jpg" alt="">
                 <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
-                <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+               <!-- <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                     data-preference-id="494878863-88a4ea9c-a7fd-43d8-b543-59132f444900" data-source="button">
-                </script>
+                </script>  --> 
             </div>
             <div class="card_destacados_vehiculos">
-                <img src="../assets/imagen/toyota-corolla.png" alt="">
+                <img src="../assets/imagenes/nissan-paisaje.jpg" alt="">
                 <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_destacados_vehiculos">
-                <img src="" alt="">
+                <img src="../assets/imagenes/fiat600-1920.jpg" alt="">
                 <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
@@ -101,56 +108,56 @@
             </div>
         </section>
 
-        <h2 >
+        <h2>
             Autos:
             <a name="Autos"></a>
         </h2>
         <section class="cuerpo_vehiculos_estructura">
             <div class="card_vehiculos">
-                <img src="../assets/imagen/ford-focus.jpg" alt="">
-                <div class="linea"></div>                    
+                <img src="../assets/imagenes/ford-focus.jpg" alt="">
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
@@ -158,60 +165,60 @@
 
         <h2>
             Suv:
-            <a name="Suv" ></a>
+            <a name="Suv"></a>
         </h2>
         <section class="cuerpo_vehiculos_estructura">
             <div class="card_vehiculos">
                 <img src="../assets/imagen/mercedes-suv.jpg" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
@@ -224,47 +231,81 @@
         <section class="cuerpo_vehiculos_estructura">
             <div class="card_vehiculos">
                 <img src="../assets/imagen/isuzu-pickup.jpg" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
             <div class="card_vehiculos">
                 <img src="" alt="">
-                <div class="linea"></div>                    
+                <div class="linea"></div>
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
-            
         </section>
-
     </main>
 
     <footer>
-        <p>todos los derechos reservados©</p>
-        <div>
-            <a href="https://es-la.facebook.com/"><img src="../assets/imagen/facebook2.png" alt=""></a>
-            <a href="https://web.whatsapp.com/"><img src="../assets/imagen/whatsapp32.png" alt=""></a>
-            <a href="https://web.telegram.org/z/"><img src="../assets/imagen/telegrama.png" alt=""></a>
-            <a href="https://www.instagram.com/"><img src="../assets/imagen/instagram.png" alt=""></a>
+        <div class="contenedor_footer">
+            <div class="caja_footer">
+                <div class="logo_footer">
+                    <img src="../assets/imagenes/deportvLogo.png" alt="">
+                    <span class="text">Olympo Car</span>
+                </div>
+            </div>
+            <div class="caja_footer">
+                <h2>Compañia</h2>
+                <a href="./nuestra-historia.html">Acerca de Nosotros</a>
+                <a href="./encontranos.html">Estamos en</a>
+                <a href="./contacto.html">Contacto</a>
+                <a href="">Terminos y Condiciones</a>
+            </div>
+            <div class="caja_footer">
+                <h2>Redes Sociales</h2>
+                <a href="https://es-la.facebook.com/"><img src="../assets/imagenes/facebook2.png" alt="">facebook</a>
+                <a href="https://web.whatsapp.com/"><img src="../assets/imagenes/whatsapp32.png" alt="">whatsapp</a>
+                <a href="https://web.telegram.org/z/"><img src="../assets/imagenes/telegrama.png" alt="">telegram</a>
+                <a href="https://www.instagram.com/"><img src="../assets/imagenes/instagram.png" alt="">instagram</a>
+            </div>
+            <div class="caja_footer">
+                <h2>Suscríbete!</h2>
+                <p>recibe las últimas noticias y ofertas de la semana</p>
+                <form action="">
+                    <div>
+                        <label for="correo"></label><br>
+                        <input type="email" name="correo" placeholder="correo electrónico">
+                    </div>
+                    <input id="boton_footer"  type="submit">
+                </form>
+            </div>
+        </div>
+        <div class="caja_copy">
+            <hr>
+            <p>Todos los derechos reservados ©2022 <b>Olympo Car</b></p>
         </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
