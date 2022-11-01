@@ -5,6 +5,7 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+
 .estructura {
     display: grid;
     grid-template-areas:"naveg  naveg"
@@ -43,11 +44,11 @@ header{
     margin-top: -7px;
     }
 #menu{
-    margin-top: 7px;
+    margin-top: 0.438rem;
 }
 #menu ul li a{
     font-size: 1.1rem;
-    padding: 10px;
+    padding: 0.625rem;
 }
 #menu li:hover{
     background-color: rgb(241, 207, 18);
@@ -90,24 +91,23 @@ header{
 .cuerpo_index{
     grid-area: seccion;
     background-color: #ebebeb;
-    padding: 1rem;
-    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 
 .cuerpo_index h2{
     font-size: 2.5rem;
-    margin: 30px;
-    padding: 30px;
+    padding: 1.875rem;
     text-decoration: blueviolet wavy underline;
+    width: 100%;
+    margin-top: 1.875rem;
 }
 
 .cuerpo_index_destacados{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 .card_destacados{
     background-color:rgb(241, 207, 18) ;
@@ -120,7 +120,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 0.625rem;
 }
 .card_destacados img{
     width: 95%;
@@ -133,7 +133,7 @@ header{
     height: 1px;
     background-color: rgba(0, 0, 0, 0.332);
     width: 95%;
-    margin: 10px;
+    margin: 0.625rem;
 }
 .card_destacados:hover{
     box-shadow: 5px 10px 16px 5px rgba(0, 0, 0, 0.563);
@@ -142,7 +142,7 @@ header{
 .card_vermas{
     width: 1200px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 .card_vermas a{
     text-decoration: none;
@@ -159,9 +159,9 @@ header{
     justify-content: center;
     margin: auto;
     max-width: 1250px;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    gap: 10px;
+    margin-top: 9.375rem;
+    margin-bottom: 6.25rem;
+    gap: 0.625rem;
 }
 .caja_promo{
     display: flex;
@@ -185,30 +185,32 @@ header{
 
 
 /*css para pagina vehiculos*/
-.portada_vehiculos img{
+.portada_vehiculos_desk{
     object-fit:cover;
     width: 100%;
     height: 900px;
     margin-top: -300px;
 }
+.portada_vehiculos_mob{
+    display: none;
+}
 .cuerpo_vehiculos{
     grid-area: seccion;
-    background-color: #ebebeb;
-    padding: 1rem;
+    background-color: #ebebeb; 
     padding-top: 2rem;
-    padding-bottom: 200px; 
+    padding-bottom: 12.5rem; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.015), rgba(0, 0, 0, 0.015)), url(../assets/imagenes/4877010.jpg);
     background-size: auto;
-    
 }
 .cuerpo_vehiculos h1{
     font-size: 2.5rem;
-    margin: 30px;
-    padding: 10px;
+    margin-left: 5%;
+    padding: 0.625rem;
 }
 .cuerpo_vehiculos h2{
     font-size: 1.7rem;
-    padding: 10px;
+    margin-left: 2%;
+    padding: 0.625rem;
 }
 #dest{
     text-decoration: blueviolet wavy underline;
@@ -218,7 +220,7 @@ header{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 15px;
+    
 }
 .card_destacados_vehiculos{
     background-color:rgb(241, 207, 18) ;
@@ -250,7 +252,7 @@ header{
     height: 1px;
     background-color: rgba(0, 0, 0, 0.332);
     width: 95%;
-    margin: 10px;
+    margin: 0.625rem;
 }
 .card_vehiculos{
     background-color:whitesmoke ;
@@ -280,8 +282,8 @@ header{
 /*comienza el footer*/
 footer{
     grid-area: foter;
-    background-color: rgb(0, 0, 0);
-    padding: 50px 0px;
+    background-color: black;
+    padding: 3.125rem 0rem;
     /*para ocultar el footer, fijarse q los demas elementos tienen q estar por arriba de esste y para eso hay q poner z-index:numero o ponerle un numero negativo solo al footer
     position: sticky;
     bottom: 0;
@@ -291,15 +293,15 @@ footer{
 .contenedor_footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
     margin: auto;
     max-width: 1200px;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 .caja_footer{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 1.875rem;
 }
 .logo_footer{
     display: flex;
@@ -324,34 +326,34 @@ footer{
 
 
 .caja_footer h2{
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     color: #7a7a7a;;
 }
 .caja_footer a{
     text-decoration: none;
     color: #6c6a6a;
-    margin: 5px;
+    margin: 0.313rem;
 }
 .caja_footer a:hover{
     opacity: 0.8;
 }
 .caja_footer p{
     color: #6c6a6a;
-    margin: 5px;
+    margin: 0.313rem;
 }
 .caja_footer div input{
     font-size: 1rem;
-    padding: 10px;
-    margin-top: -20px;
+    padding: 0.625rem;
+    margin-top: -1.25rem;
     border-radius: 1rem;
-    width: 370px;
+    width: 100%;
 }
 #boton_footer{
     font-size: 1.2rem;
     background-color: rgb(241, 207, 18) ;
     border-radius: 1rem;
-    padding: 5px;
-    margin-top: 5px;
+    padding: 0.313rem;
+    margin-top: 0.313rem;
 }
 #boton_footer:hover{
     opacity: 0.8;
@@ -523,6 +525,24 @@ background-repeat: no-repeat;
         border-bottom-right-radius: 1rem;
         border-bottom-left-radius: 1rem;
     }
+    .logo{
+        margin-left: 0px;
+    }
+    /*arreglos vehiculos*/
+    .portada_vehiculos_desk{
+        display: none;
+    }
+    .portada_vehiculos_mob{
+        object-fit:cover;
+        width: 100%;
+        display: block;
+        height: 700px;
+    }
+
+
+
+
+
     .contenedor_nuestraHistoria p{
         width: 100%;
         align-items: center;
@@ -532,11 +552,24 @@ background-repeat: no-repeat;
     }
 }
 @media screen and (max-width: 480px) { 
-    .estructura {
-        grid-template-areas:"naveg"
-                            "seccion"
-                            "foter";
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 5fr 0.1fr;
+    /*.cuerpo_index_titulos h2{
+        font-size: 1rem;
+    }*/
+    .cuerpo_index h2{
+        font-size: 1.7rem;
+        padding: 1.2rem;
     }
+
+}
+@media screen and (max-width: 250px){
+    .logo_footer img{
+    width: 100px;
+}
+.logo_footer .text {
+    font-size: 1.5rem;
+}
+.cuerpo_index h2{
+    font-size: 1.2rem;
+    padding: 0;
+}
 }
