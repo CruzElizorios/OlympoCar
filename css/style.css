@@ -12,11 +12,13 @@
                         "seccion seccion"
                         "foter foter";
     grid-template-columns: 5fr 1fr;
-    grid-template-rows: 0.3fr 5fr 0.1fr;
+    grid-template-rows: 0.01fr 1fr 0.01fr;
+    background-color:black;
 }
 header{
     grid-area: naveg;
     background-color:black;
+    height: fit-content;
 }
 /*modificaciones al nav bootstrap*/
 
@@ -92,6 +94,7 @@ header{
     grid-area: seccion;
     background-color: #ebebeb;
     padding-bottom: 2rem;
+    margin-top: -1px;
 }
 
 
@@ -379,26 +382,26 @@ footer{
 .portada_nuestraHistoria img{
     object-fit:cover;
     width: 100%;
-    height: 700px;
-    margin-top: -100px;
+    height: 43.75rem;
+    margin-top: -6.25rem;
 }
 .cuerpo_nuestraHistoria{
     grid-area: seccion;
     background-color: #ebebeb;
-    padding: 40px;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding: 2.5rem;
+    padding-bottom: 6.25rem;
+    padding-top: 6.25rem;
 }
 .cuerpo_nuestraHistoria h2{
     font-size: 2.2rem;
-    margin: 20px;
-    padding: 10px;
-    margin-top: 40px;
-background-image: url(../assets/imagenes/resaltadorrecort.png);
-background-repeat: no-repeat;
-   background-size: 410px;
-   background-position-x: -20px;
-   background-position-y: -20px;
+    margin: 1.25rem;
+    padding: 0.625rem;
+    margin-top: 2.5rem;
+    background-image: url(../assets/imagenes/resaltadorrecort.png);
+    background-repeat: no-repeat;
+    background-size: 25.625rem;
+    background-position-x: -1.25rem;
+    background-position-y: -1.25rem;
    /* background-color: rgb(183, 220, 20);*/
 }
 .cuerpo_nuestraHistoria p{
@@ -409,10 +412,10 @@ background-repeat: no-repeat;
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 .contenedor_nuestraHistoria img{
-    width: 400px;
+    width: 25rem;
 }
 .contenedor_nuestraHistoria p{
     width: 60%;
@@ -430,19 +433,19 @@ background-repeat: no-repeat;
 .portada_encontranos img{
     object-fit:cover;
     width: 100%;
-    height: 700px;
-    margin-top: -100px;
+    height: 43.75rem;
+    margin-top: -6.25rem;
 }
 .cuerpo_encontranos{
     grid-area: seccion;
     background-color: #ebebeb;
-    padding: 40px;
-    padding-bottom: 100px;
+    padding: 2.5rem;
+    padding-bottom: 6.25rem;
 }
 .cuerpo_encontranos h2{
     font-size: 2.5rem;
-    margin: 20px;
-    padding: 10px;
+    margin: 1.25rem;
+    padding: 0.625rem;
 }
 .cuerpo_encontranos div{
     display: flex;
@@ -475,6 +478,7 @@ background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    align-items: center;
 }
 .contenedor_formulario img{
     width: 65%;
@@ -514,8 +518,20 @@ background-repeat: no-repeat;
 }
 
 
+@media screen and (max-width: 1182px) {
+    .contenedor_formulario img{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 938px){
+    .contenedor_formulario{
+        justify-content:center;
+    }
+    .contenedor_formulario img{
+        width: 70%;
+    }
 
-
+}
 @media screen and (max-width: 767px) {
     body{
         background-color:black;
@@ -538,28 +554,68 @@ background-repeat: no-repeat;
         display: block;
         height: 700px;
     }
+    /*arreglos nuestra historia*/
 
-
-
-
-
-    .contenedor_nuestraHistoria p{
+    .cuerpo_nuestraHistoria p{
+        font-size: 1.2rem;
         width: 100%;
-        align-items: center;
     }
-    .nuestroFuturo{
-        width: 100% !important;
+    .portada_encontranos img{
+        margin-top:-20px ;
     }
+    .cuerpo_contacto h2{
+        font-size: 2rem;
+    }
+    .cuerpo_contacto h3{
+        font-size: 1.4rem;
+    }
+
 }
 @media screen and (max-width: 480px) { 
-    /*.cuerpo_index_titulos h2{
-        font-size: 1rem;
-    }*/
     .cuerpo_index h2{
         font-size: 1.7rem;
         padding: 1.2rem;
     }
+    .cuerpo_nuestraHistoria h2{
+        font-size: 1.7rem;
+        margin: 0rem;
+        margin-top: 3.125rem;
+        margin-bottom: 1.25rem;
+    }
+    .cuerpo_nuestraHistoria p{
+        font-size: 1.2rem;
+        width: 100%;
+    }
 
+    .portada_nuestraHistoria img{
+        object-position:40%;
+    }
+    .contenedor_nuestraHistoria img{
+        width: 100%;
+    }
+    .cuerpo_encontranos h2{
+        font-size: 1.7rem;
+        margin-left: 0;
+    }
+    .cuerpo_encontranos p{
+        font-size: 1.2rem;
+    }
+    .cuerpo_contacto h2{
+        margin: 0;
+    }
+    .cuerpo_contacto h3{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #botones{
+        border-radius: 1rem;
+        padding: 5px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .contenedor_formulario img{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 250px){
     .logo_footer img{
