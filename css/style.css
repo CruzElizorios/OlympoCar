@@ -94,6 +94,46 @@ header{
     position: absolute;
     top: 50%;
 }*/
+/*animaciones de titulos*/
+.titulo_index{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 5;
+    animation-name: entradaTitulo;
+    animation-duration: 10s;
+}
+.titulo_index h1{
+    font-weight: 500;
+    font-size: 3rem;
+}
+.titulo2_index{
+    font-size: 3rem;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    z-index: 5;
+    animation-name: entradaTitulo2;
+    animation-duration: 5s;
+}
+@keyframes entradaTitulo {
+    0%{top: -100%;}
+    35%{top: 10%;}
+}
+@keyframes entradaTitulo2 {
+    0%{top: -100%;}
+    40%{top: 10%;}
+}
+/*
+@keyframes entradaTitulo {
+    0% {top: 0%;}
+    50%{top: 10%;color: white;}
+    90%{color: white;}
+    100%{}
+}*/
 .cuerpo_index{
     grid-area: seccion;
     background-color: #ebebeb;
@@ -107,7 +147,7 @@ header{
     padding: 1.875rem;
     text-decoration: blueviolet wavy underline;
     width: 100%;
-    margin-top: 1.875rem;
+    margin-top: 4rem;
 }
 
 .cuerpo_index_destacados{
@@ -167,7 +207,7 @@ header{
     margin: auto;
     max-width: 1250px;
     margin-top: 9.375rem;
-    margin-bottom: 6.25rem;
+    margin-bottom: 8.25rem;
     gap: 0.625rem;
 }
 .caja_promo{
@@ -569,6 +609,13 @@ footer{
     .logo{
         margin-left: 0px;
     }
+
+    .titulo_index h1{
+        font-size: 2rem;
+    }
+    .titulo2_index {
+        font-size: 2rem;
+    }
     /*arreglos vehiculos*/
     .portada_vehiculos_desk{
         display: none;
@@ -597,6 +644,12 @@ footer{
 
 }
 @media screen and (max-width: 480px) { 
+    .titulo_index h1{
+        font-size: 1.5rem;
+    }
+    .titulo2_index {
+        font-size: 1.5rem;
+    }
     .cuerpo_index h2{
         font-size: 1.7rem;
         padding: 1.2rem;
