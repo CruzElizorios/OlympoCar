@@ -1,0 +1,37 @@
+/*cambios carrusel bootstrap*/
+#calecita{
+    max-height: 100vh - 15vh; 
+}
+.titulo_index{
+    color: $colorLetra1;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 5;
+    animation-name: entradaTitulo;
+    animation-duration: 10s;
+    h1{
+        font-weight: 500;
+        font-size: 3rem;
+    }
+}
+.titulo2_index{
+    font-size: 3rem;
+    font-weight: 500;
+    color: $colorLetraTex;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    z-index: 5;
+    animation-name: entradaTitulo2;
+    animation-duration: 5s;
+}
+@keyframes entradaTitulo {
+    0%{top: -100%;}
+    35%{top: 10%;}
+}
+@keyframes entradaTitulo2 {
+    0%{top: -100%;}
+    40%{top: 10%;}
+}
+

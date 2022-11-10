@@ -1,0 +1,25 @@
+.cuerpo_contacto{
+    grid-area: seccion;
+    background-color: $colorFondo;
+    padding: 2.5rem;
+    padding-bottom: 6.25rem;
+    h2{
+        font-size: 2.5rem;
+        margin: 1.25rem;
+        padding: 0.625rem;
+    }
+    h3{
+        font-size: 1.8rem;
+        margin: 1.25rem;
+        margin-top: -1.25rem;
+    }
+}
+.contenedor_formulario img{
+    width: 65%;
+    border-radius: 100%;
+}
+.caja_form{
+    display: flex;
+    gap: 1.875rem;
+    margin-bottom: 1.875rem;
+}

@@ -1,0 +1,58 @@
+@media screen and (max-width: 480px) { 
+    .titulo_index h1{
+        font-size: 1.5rem;
+    }
+    .titulo2_index {
+        font-size: 1.5rem;
+    }
+    .cuerpo_index h2{
+        font-size: 1.7rem;
+        padding: 1.2rem;
+    }
+    .cuerpo_nuestraHistoria{
+            h2{
+            font-size: 1.7rem;
+            margin: 0rem;
+            margin-top: 3.125rem;
+            margin-bottom: 1.25rem;
+        }
+            p{
+            font-size: 1.2rem;
+            width: 100%;
+        }
+        &_contenedor{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .portada_nuestraHistoria img{
+        object-position:40%;
+    }
+    .cuerpo_encontranos {
+        h2{
+            font-size: 1.7rem;
+            margin-left: 0;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    .portada_encontranos img{
+        object-fit:cover;
+        height: 700px;
+    }
+
+    .cuerpo_contacto {
+        h2{
+            margin: 0;
+        }
+        h3{
+            margin: 0;
+            margin-bottom: 20px;
+        }
+    }
+    .contenedor_formulario img{
+        width: 100%;
+    }
+}

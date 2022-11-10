@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css-sass/main.css">
 </head>
 <body class="estructura_contacto">
     <header>
@@ -67,7 +67,7 @@
                 ¿quieres vender tu vehiculo? deja tus datos para contactarnos y una descripcion del mismo
             </h3>
             <div class="contenedor_formulario">
-                <div class="caja_form">
+                <div>
                     <form >
                             <div>
                                 <label for="nom">Nombre:</label>
@@ -93,55 +93,51 @@
                                 <label for="coment">Comentarios</label>
                                 <textarea name="coment" class="input" cols="15" rows="3" placeholder="descripción, año, kilometraje,etc"></textarea>
                             </div>
-                            
-                                <input id="botones"  type="submit">
-                                <input id="botones" type="reset">
-                            
+                            <div class="caja_form">
+                                <input class="botones"  type="submit">
+                                <input class="botones" type="reset">
+                            </div>
                     </form>
                 </div>
                 <img src="../assets/imagenes/enviarCorreo.jpg" alt="">
-                <div class="caja_form">
-                  
-                </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="contenedor_footer">
-            <div class="caja_footer">
+            <div class="contenedor_footer_caja">
                     <div class="logo_footer">
                         <img src="../assets/imagenes/deportvLogo.png" alt="">
                         <span class="text">Olympo Car</span>
                     </div>
             </div>
-            <div class="caja_footer">
+            <div class="contenedor_footer_caja">
                     <h2>Compañia</h2>
                     <a href="./nuestra-historia.html">Acerca de Nosotros</a>
                     <a href="./encontranos.html">Estamos en</a>
                     <a href="./contacto.html">Contacto</a>
                     <a href="">Terminos y Condiciones</a>
             </div>
-            <div class="caja_footer">
+            <div class="contenedor_footer_caja">
                     <h2>Redes Sociales</h2>
                     <a href="https://es-la.facebook.com/"><img src="../assets/imagenes/facebook2.png" alt="">facebook</a>
                     <a href="https://web.whatsapp.com/"><img src="../assets/imagenes/whatsapp32.png" alt="">whatsapp</a>
                     <a href="https://web.telegram.org/z/"><img src="../assets/imagenes/telegrama.png" alt="">telegram</a>
                     <a href="https://www.instagram.com/"><img src="../assets/imagenes/instagram.png" alt="">instagram</a>
             </div>
-            <div class="caja_footer">
+            <div class="contenedor_footer_caja">
                 <h2>Suscríbete!</h2>
                 <p>recibe las últimas noticias y ofertas de la semana</p>
-                <br>
                 <form action="">
                     <div>
-                        <label for="correo"></label><br>
+                        <label for="correo"></label>
                         <input type="email" name="correo" placeholder="correo electrónico">
                     </div>
                     <input id="boton_footer"  type="submit">
                 </form>
             </div>
         </div>
-        <div class="caja_copy">
+        <div class="contenedor_footer_caja_copy">
                 <hr>
                 <p>Todos los derechos reservados ©2022 Olympo Car </p>
         </div>

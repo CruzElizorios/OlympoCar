@@ -1,0 +1,61 @@
+header{
+    grid-area: naveg;
+    background-color:black;
+    height: fit-content;
+    z-index: 2;
+}
+/*modificaciones al nav bootstrap*/
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -15px;
+    margin-left: 22px;
+    img{
+        background-color: $colorPrimario;
+        padding-top: 3px;
+        margin-top: -13px;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        width: 141px;
+    }
+    .text {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        font-weight: bold;
+        color: $colorLetra1;
+        padding: 0px;
+        margin-top: -7px;
+        }
+}
+#menu{
+    margin-top: 0.438rem;
+    ul{
+        li{
+            :hover{
+                background-color: $colorPrimario;
+                border-radius: 1.3rem;
+            }
+            a{
+                font-size: 1.1rem;
+                padding: 0.625rem;
+                &:hover{
+                    color: $colorLetra2;
+                    transition: 0.35s;
+                }
+            }
+        }
+    }
+}
+#menu-desplegable{
+    background-color: $colorPrimario;
+    border-radius: 1rem;
+    padding: 0px;
+    li{
+        a{
+            &:hover{
+                background-color: $colorLetra1;
+                transition: none;
+            }
+        }
+    }
+}

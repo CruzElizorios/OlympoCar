@@ -1,0 +1,12 @@
+.card_vehiculos{
+    @include tarjeta;
+}
+.card_destacados_vehiculos{
+    @include tarjeta($fondo:$colorPrimario);
+}
+.card_destacados{
+    @include tarjeta($fondo:$colorPrimario);
+    height: 20rem;
+    width: 18rem;
+    margin: 0.625rem;
+}

@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css-sass/main.css">
 </head>
 
 <body class="estructura">
@@ -24,7 +24,7 @@
                 <!--icono-->
                 <a class="navbar-brand" href="#">
                     <div class="logo">
-                        <img src="./assets/imagenes/deportvLogo.png" alt="">
+                        <img src="./assets/imagenes/deportvLogo.png" alt="logotipo olympo car de auto deportivo">
                         <span class="text">Olympo Car</span>
                     </div>
                 </a>
@@ -65,8 +65,8 @@
             
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner" id="calecita"> 
-                <div class="carousel-item active" data-bs-interval="12000">
-                <img src="./assets/imagenes/fondo-porsche16-9recort.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item active" data-bs-interval="8000">
+                <img src="./assets/imagenes/fondo-porsche16-9recort.jpg" class="d-block w-100" alt="coche deportivo">
                 <div class="titulo_index">
                     <h1>
                     Consegui tu auto ideal, fácil y barato ☟
@@ -74,10 +74,10 @@
                 </div>   
                 </div>
                 <div class="carousel-item" data-bs-interval="6000">
-                <img src="./assets/imagenes/concesionaria1recort16-9.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/imagenes/concesionaria1recort16-9.jpg" class="d-block w-100" alt="vendedor mostrando vehiculos a una pareja">
                 </div>
                 <div class="carousel-item" data-bs-interval="6000">
-                <img src="./assets/imagenes/concesionaria2recort16-9.jpg" class="d-block w-100" alt="..."> 
+                <img src="./assets/imagenes/concesionaria2recort16-9.jpg" class="d-block w-100" alt="estrechando manos-trato cumplido"> 
                 </div>
                 <div class="carousel-item" data-bs-interval="6000">
                 <img src="./assets/imagenes/concesionaria3recort16-9.jpg" class="d-block w-100"    alt="...">
@@ -123,30 +123,30 @@
                 <p>Nombre auto</p>
                 <p>Precio:892739</p>
             </div>
-            <div class="card_vermas">
+            <div class="cuerpo_index_destacados_vermas">
                 <a href="./paginas/vehiculos.html#Destacados">descubrir más</a>
             </div>
         </section>
         
         <section class="cuerpo_index_promo">
-                <div class="caja_promo">
+                <div class="cuerpo_index_promo_caja">
                     <img src="./assets/imagenes/seguro-de-coche128.png" alt="">
-                    <p id="promo_titulo">Compra Segura</p>
+                    <p class="promo_titulo">Compra Segura</p>
                     <p>todos nuestros vehículos son revisados técnicamente para garantizarte calidad</p>
                 </div>
-                <div class="caja_promo">
+                <div class="cuerpo_index_promo_caja">
                     <img src="./assets/imagenes/financiacion128.png" alt="">
-                    <p id="promo_titulo">Financiación</p>
+                    <p class="promo_titulo">Financiación</p>
                     <p>ofrecemos las mejores tasas de financiación del mercado</p>
                 </div>
-                <div class="caja_promo">
+                <div class="cuerpo_index_promo_caja">
                     <img src="./assets/imagenes/asesoramiento.png" alt="">
-                    <p id="promo_titulo">Asesoramiento<p>
+                    <p class="promo_titulo">Asesoramiento<p>
                     <p style="margin-top:-17px ;">ayudamos a que encuentres el vehículo perfecto para tus necesidades</p>
                 </div>
-                    <div class="caja_promo">
+                    <div class="cuerpo_index_promo_caja">
                         <img src="./assets/imagenes/entrega.png" alt="">
-                        <p id="promo_titulo">Entrega Inmediata</p>
+                        <p class="promo_titulo">Entrega Inmediata</p>
                         <p>arma tu plan y disfrutalo en pocos días</p>
                     </div>
         </section>
@@ -154,40 +154,39 @@
 
     <footer>
         <div class="contenedor_footer">
-            <div class="caja_footer">
+            <div class="contenedor_footer_caja">
                     <div class="logo_footer">
                         <img src="./assets/imagenes/deportvLogo.png" alt="">
                         <span class="text">Olympo Car</span>
                     </div>
             </div>
-            <div class="caja_footer">
+            <div class="contenedor_footer_caja">
                     <h2>Compañia</h2>
                     <a href="./paginas/nuestra-historia.html">Acerca de Nosotros</a>
                     <a href="./paginas/encontranos.html">Estamos en</a>
                     <a href="./paginas/contacto.html">Contacto</a>
                     <a href="">Terminos y Condiciones</a>
             </div>
-            <div class="caja_footer">
+            <div class="contenedor_footer_caja">
                     <h2>Redes Sociales</h2>
                     <a href="https://es-la.facebook.com/"><img src="./assets/imagenes/facebook2.png" alt="">facebook</a>
                     <a href="https://web.whatsapp.com/"><img src="./assets/imagenes/whatsapp32.png" alt="">whatsapp</a>
                     <a href="https://web.telegram.org/z/"><img src="./assets/imagenes/telegrama.png" alt="">telegram</a>
                     <a href="https://www.instagram.com/"><img src="./assets/imagenes/instagram.png" alt="">instagram</a>
             </div>
-            <div class="caja_footer">
+            <div class="contenedor_footer_caja">
                 <h2>Suscríbete!</h2>
                 <p>recibe las últimas noticias y ofertas de la semana</p>
-                <br>
                 <form action="">
                     <div>
-                        <label for="correo"></label><br>
+                        <label for="correo"></label>
                         <input type="email" name="correo" placeholder="correo electrónico">
                     </div>
                     <input id="boton_footer"  type="submit">
                 </form>
             </div>
         </div>
-        <div class="caja_copy">
+        <div class="contenedor_footer_caja_copy">
                 <hr>
                 <p>Todos los derechos reservados ©2022 Olympo Car </p>
         </div>

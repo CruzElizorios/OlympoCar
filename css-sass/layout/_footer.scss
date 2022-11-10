@@ -1,0 +1,85 @@
+footer{
+    grid-area: foter;
+    background-color: $colorFooter;
+    padding: 3.125rem 0rem;
+    .contenedor_footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        margin: auto;
+        max-width: 1200px;
+        margin-top: 3.125rem;
+        &_caja{
+            display: flex;
+            flex-direction: column;
+            padding: 1.875rem;
+            .logo_footer{
+                display: flex;
+                flex-direction: column;
+                img{
+                    background-color: $colorPrimario;
+                    border-bottom-left-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                    width: 173px;
+                    padding:1px;
+                    padding-top: 5px;
+                }
+                .text {
+                    font-family: 'Dancing Script', cursive;
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    color: $colorLetra1;
+                    padding: 0px;
+                    margin-top: -7px;
+                }
+            }
+            h2{
+                margin-bottom: 0.625rem;
+                color: $colorFooterletratitulo;
+            }
+            a{
+                text-decoration: none;
+                color: $colorFooterletra;
+                margin: 0.313rem;
+                &:hover{
+                    opacity: 0.8;
+                }
+                img{
+                    margin: 1px;
+                    margin-right: 5px;
+                }
+            }
+            p{
+                color: $colorFooterletra;
+                margin: 0.313rem;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:flex-start;
+                div {
+                    width: 100%;
+                    input{
+                    font-size: 1rem;
+                    padding: 0.625rem;
+                    margin-top: -1.25rem;
+                    border-radius: 1rem;
+                    width: 100%;
+                    }
+                }
+            }
+            &_copy{
+                color: $colorFooterletratitulo;
+                max-width: 1200px;
+                text-align: center;
+                margin: auto;
+                hr{
+                    background-color: $colorFooterletratitulo;
+                    border: none;
+                    height: 1px;
+                }
+            }
+        }
+    }
+}

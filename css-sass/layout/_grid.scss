@@ -1,0 +1,9 @@
+.estructura {
+    display: grid;
+    grid-template-areas:"naveg  naveg"
+                        "seccion seccion"
+                        "foter foter";
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 0.01fr 1fr 0.01fr;
+    background-color:black;
+}
