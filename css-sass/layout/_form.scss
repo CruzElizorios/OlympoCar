@@ -3,20 +3,19 @@
     flex-wrap: wrap;
     justify-content:space-around;
     align-items: center;
-    border-radius: 1rem;
     form{
         font-size: 1.2rem;
     }
     div{
         input{
             font-size: 1.2rem;
-            padding: 10px;
+            padding: 0.625rem;
             border-radius: 1rem;
             width: 100%;
         }
         textarea{
             font-size: 1.2rem;
-            padding: 10px;
+            padding: 0.625rem;
             border-radius: 1rem;
             width: 100%;
         }

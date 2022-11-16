@@ -8,15 +8,15 @@ header{
 .logo{
     display: flex;
     flex-direction: column;
-    margin-bottom: -15px;
-    margin-left: 22px;
+    margin-bottom: -0.938rem;
+    margin-left: 1.375rem;
     img{
         background-color: $colorPrimario;
-        padding-top: 3px;
-        margin-top: -13px;
+        padding-top: 0.188rem;
+        margin-top: -0.813rem;
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
-        width: 141px;
+        width: 8.813rem;
     }
     .text {
         font-family: 'Dancing Script', cursive;
@@ -24,7 +24,7 @@ header{
         font-weight: bold;
         color: $colorLetra1;
         padding: 0px;
-        margin-top: -7px;
+        margin-top: -0.438rem;
         }
 }
 #menu{

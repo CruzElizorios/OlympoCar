@@ -40,19 +40,90 @@
     }
     .portada_encontranos img{
         object-fit:cover;
-        height: 700px;
+        height: 43.75rem;
     }
 
     .cuerpo_contacto {
-        h2{
-            margin: 0;
-        }
-        h3{
-            margin: 0;
-            margin-bottom: 20px;
-        }
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+            h2{
+                margin: 0;
+            }
+            h3{
+                margin: 0;
+                margin-bottom: 1.25rem;
+            }
+            h4{
+                margin: 0;
+                margin-bottom: 1.875rem;
+            }
     }
     .contenedor_formulario img{
         width: 100%;
+    }
+}
+@media screen and (max-width: 350px){
+    .logo{
+        img{
+            width: 6.813rem;
+        }
+        .text{
+            font-size: 1.57rem;
+        }
+    }
+    .titulo_index h1{
+        font-size: 1.2rem;
+    }
+    .titulo2_index {
+        font-size: 1.2rem;
+    }
+    .cuerpo_index h2{
+        font-size: 1.5rem;
+        padding: 1.2rem;
+    }
+    .cuerpo_vehiculos_estructura{
+        gap:1.25rem ;
+    }
+    .card_vehiculos{
+        height: 20rem;
+        width: 18rem;
+        margin: 0.625rem;
+    }
+    .card_destacados_vehiculos{
+        height: 20rem;
+        width: 18rem;
+        margin: 0.625rem;
+    }
+    .portada_nuestraHistoria img{
+        margin-top: -5rem;
+    }
+    .cuerpo_nuestraHistoria{
+        padding-right: 0.625rem;
+        padding-left:0.625rem;
+    }
+    .cuerpo_encontranos{
+        padding-right: 0.625rem;
+        padding-left:0.625rem;
+    }
+    .cuerpo_contacto{
+        padding-right: 0.625rem;
+        padding-left:0.625rem;
+    }
+}
+@media screen and (max-width: 275px){
+    .card_destacados{
+        height: 18rem;
+        width: 16rem;
+        margin: 0.625rem;
+    }
+    .card_vehiculos{
+        height: 18rem;
+        width: 16rem;
+        margin: 0.625rem;
+    }
+    .card_destacados_vehiculos{
+        height: 18rem;
+        width: 16rem;
+        margin: 0.625rem;
     }
 }

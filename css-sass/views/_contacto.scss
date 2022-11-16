@@ -1,17 +1,21 @@
 .cuerpo_contacto{
     grid-area: seccion;
     background-color: $colorFondo;
-    padding: 2.5rem;
+    padding: 2.4rem;
     padding-bottom: 6.25rem;
     h2{
         font-size: 2.5rem;
         margin: 1.25rem;
+        margin-top: -0.625rem;
         padding: 0.625rem;
     }
     h3{
         font-size: 1.8rem;
         margin: 1.25rem;
         margin-top: -1.25rem;
+    }
+    h4{
+        margin: 1.25rem;
     }
 }
 .contenedor_formulario img{
@@ -20,6 +24,6 @@
 }
 .caja_form{
     display: flex;
-    gap: 1.875rem;
+    gap: 8%;
     margin-bottom: 1.875rem;
 }

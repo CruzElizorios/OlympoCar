@@ -241,16 +241,16 @@ header {
 .logo {
   display: flex;
   flex-direction: column;
-  margin-bottom: -15px;
-  margin-left: 22px;
+  margin-bottom: -0.938rem;
+  margin-left: 1.375rem;
 }
 .logo img {
   background-color: rgb(241, 207, 18);
-  padding-top: 3px;
-  margin-top: -13px;
+  padding-top: 0.188rem;
+  margin-top: -0.813rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  width: 141px;
+  width: 8.813rem;
 }
 .logo .text {
   font-family: "Dancing Script", cursive;
@@ -258,7 +258,7 @@ header {
   font-weight: bold;
   color: white;
   padding: 0px;
-  margin-top: -7px;
+  margin-top: -0.438rem;
 }
 
 #menu {
@@ -378,20 +378,19 @@ footer .contenedor_footer_caja_copy hr {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  border-radius: 1rem;
 }
 .contenedor_formulario form {
   font-size: 1.2rem;
 }
 .contenedor_formulario div input {
   font-size: 1.2rem;
-  padding: 10px;
+  padding: 0.625rem;
   border-radius: 1rem;
   width: 100%;
 }
 .contenedor_formulario div textarea {
   font-size: 1.2rem;
-  padding: 10px;
+  padding: 0.625rem;
   border-radius: 1rem;
   width: 100%;
 }
@@ -606,18 +605,22 @@ footer .contenedor_footer_caja_copy hr {
 .cuerpo_contacto {
   grid-area: seccion;
   background-color: #ebebeb;
-  padding: 2.5rem;
+  padding: 2.4rem;
   padding-bottom: 6.25rem;
 }
 .cuerpo_contacto h2 {
   font-size: 2.5rem;
   margin: 1.25rem;
+  margin-top: -0.625rem;
   padding: 0.625rem;
 }
 .cuerpo_contacto h3 {
   font-size: 1.8rem;
   margin: 1.25rem;
   margin-top: -1.25rem;
+}
+.cuerpo_contacto h4 {
+  margin: 1.25rem;
 }
 
 .contenedor_formulario img {
@@ -627,7 +630,7 @@ footer .contenedor_footer_caja_copy hr {
 
 .caja_form {
   display: flex;
-  gap: 1.875rem;
+  gap: 8%;
   margin-bottom: 1.875rem;
 }
 
@@ -670,7 +673,7 @@ footer .contenedor_footer_caja_copy hr {
        object-fit: cover;
     width: 100%;
     display: block;
-    height: 100vh;
+    height: 90vh;
   }
   .cuerpo_nuestraHistoria p {
     font-size: 1.2rem;
@@ -724,16 +727,87 @@ footer .contenedor_footer_caja_copy hr {
   .portada_encontranos img {
     -o-object-fit: cover;
        object-fit: cover;
-    height: 700px;
+    height: 43.75rem;
+  }
+  .cuerpo_contacto {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
   .cuerpo_contacto h2 {
     margin: 0;
   }
   .cuerpo_contacto h3 {
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+  }
+  .cuerpo_contacto h4 {
+    margin: 0;
+    margin-bottom: 1.875rem;
   }
   .contenedor_formulario img {
     width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .logo img {
+    width: 6.813rem;
+  }
+  .logo .text {
+    font-size: 1.57rem;
+  }
+  .titulo_index h1 {
+    font-size: 1.2rem;
+  }
+  .titulo2_index {
+    font-size: 1.2rem;
+  }
+  .cuerpo_index h2 {
+    font-size: 1.5rem;
+    padding: 1.2rem;
+  }
+  .cuerpo_vehiculos_estructura {
+    gap: 1.25rem;
+  }
+  .card_vehiculos {
+    height: 20rem;
+    width: 18rem;
+    margin: 0.625rem;
+  }
+  .card_destacados_vehiculos {
+    height: 20rem;
+    width: 18rem;
+    margin: 0.625rem;
+  }
+  .portada_nuestraHistoria img {
+    margin-top: -5rem;
+  }
+  .cuerpo_nuestraHistoria {
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+  }
+  .cuerpo_encontranos {
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+  }
+  .cuerpo_contacto {
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+  }
+}
+@media screen and (max-width: 275px) {
+  .card_destacados {
+    height: 18rem;
+    width: 16rem;
+    margin: 0.625rem;
+  }
+  .card_vehiculos {
+    height: 18rem;
+    width: 16rem;
+    margin: 0.625rem;
+  }
+  .card_destacados_vehiculos {
+    height: 18rem;
+    width: 16rem;
+    margin: 0.625rem;
   }
 }/*# sourceMappingURL=main.css.map */
