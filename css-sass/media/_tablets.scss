@@ -24,13 +24,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: cadetblue;
         &_calecita{
-            width: 70%;
+            width: 85%;
         }
         .primeraDescripcion{
-            margin-top: 30px;
-            width: 500px;
+            margin-top: 1.875rem;
+            width: 85%;
     }
     }
 }
@@ -47,7 +46,7 @@
     }
 
     .logo {
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .titulo_index h1 {
@@ -77,7 +76,7 @@
         }
     }
     .portada_encontranos img{
-        margin-top:-20px ;
+        margin-top:-1.25rem ;
     }
     .cuerpo_contacto{
         h2{

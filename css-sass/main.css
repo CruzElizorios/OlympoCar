@@ -540,7 +540,7 @@ footer .contenedor_footer_caja_copy hr {
 }
 .cuerpo_model_contenedor {
   display: flex;
-  max-width: 1200px;
+  max-width: 75rem;
   gap: 1%;
 }
 .cuerpo_model_contenedor_calecita {
@@ -549,31 +549,31 @@ footer .contenedor_footer_caja_copy hr {
 .cuerpo_model_contenedor_calecita img {
   width: 100%;
   border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0.122rem 0.122rem 0.163rem;
 }
 .cuerpo_model .primeraDescripcion {
   background-color: white;
   width: 30%;
   border-radius: 1rem;
   padding: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0.122rem 0.122rem 0.163rem;
 }
 .cuerpo_model .primeraDescripcion p {
   font-size: 1.6rem;
   color: #212529;
-  margin: 10px;
+  margin: 0.625rem;
 }
 .cuerpo_model .primeraDescripcion .letratitu {
   color: blueviolet;
   font-size: 1.9rem;
-  margin-bottom: -3px;
+  margin-bottom: -0.188rem;
 }
 .cuerpo_model .primeraDescripcion .letraSecun {
   font-size: 1.2rem;
   color: #6c6a6a;
 }
 .cuerpo_model .primeraDescripcion .linea {
-  height: 1px;
+  height: 0.063rem;
   background-color: rgba(0, 0, 0, 0.332);
   width: 95%;
   margin: 0.625rem;
@@ -601,7 +601,7 @@ footer .contenedor_footer_caja_copy hr {
   color: white;
 }
 .red_contacto a i {
-  margin-right: 5px;
+  margin-right: 0.313rem;
   padding: 0.5rem;
   border-radius: 30%;
 }
@@ -745,14 +745,13 @@ footer .contenedor_footer_caja_copy hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
   }
   .cuerpo_model_contenedor_calecita {
-    width: 70%;
+    width: 85%;
   }
   .cuerpo_model_contenedor .primeraDescripcion {
-    margin-top: 30px;
-    width: 500px;
+    margin-top: 1.875rem;
+    width: 85%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -765,7 +764,7 @@ footer .contenedor_footer_caja_copy hr {
     border-bottom-left-radius: 1rem;
   }
   .logo {
-    margin-left: 0px;
+    margin-left: 0;
   }
   .titulo_index h1 {
     font-size: 2rem;
@@ -788,7 +787,7 @@ footer .contenedor_footer_caja_copy hr {
     width: 100%;
   }
   .portada_encontranos img {
-    margin-top: -20px;
+    margin-top: -1.25rem;
   }
   .cuerpo_contacto h2 {
     font-size: 2rem;
@@ -855,8 +854,24 @@ footer .contenedor_footer_caja_copy hr {
   .contenedor_formulario img {
     width: 100%;
   }
+  .cuerpo_model {
+    padding: 0.625rem;
+    margin-top: -3.125rem;
+  }
+  .cuerpo_model_contenedor {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cuerpo_model_contenedor_calecita {
+    width: 100%;
+  }
+  .cuerpo_model_contenedor .primeraDescripcion {
+    margin-top: 1.875rem;
+    width: 100%;
+  }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 480px) and (max-width: 350px) {
   .logo img {
     width: 6.813rem;
   }

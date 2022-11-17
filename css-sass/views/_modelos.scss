@@ -10,14 +10,14 @@
     align-items: center;
     &_contenedor{
         display: flex;
-        max-width: 1200px;
+        max-width: 75rem;
         gap: 1%;
         &_calecita{
             width: 70%;
             img{
                 width: 100%;
                 border-radius: 1rem;
-                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                box-shadow: rgba(0, 0, 0, 0.15) 0.122rem 0.122rem 0.163rem;
             }
         }
         }
@@ -26,23 +26,23 @@
             width: 30%;
             border-radius: 1rem;
             padding: 1rem;
-            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0.122rem 0.122rem 0.163rem;
             p{
                 font-size: 1.6rem;
                 color:$colorLetraTex;
-                margin: 10px;
+                margin: 0.625rem;
             }
             .letratitu{
                 color: $colorDestacado;
                 font-size: 1.9rem;
-                margin-bottom: -3px;
+                margin-bottom: -0.188rem;
             }
             .letraSecun{
                 font-size: 1.2rem;
                 color: $colorFooterletra;
             }
             .linea{
-                height: 1px;
+                height: 0.063rem;
                 background-color: rgba(0, 0, 0, 0.332);
                 width: 95%;
                 margin: 0.625rem;
@@ -69,7 +69,7 @@
                 color: white;
             }
             i{
-                margin-right: 5px;
+                margin-right: 0.313rem;
                 padding: 0.5rem;
                 border-radius: 30%;
             }

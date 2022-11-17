@@ -61,7 +61,22 @@
     .contenedor_formulario img{
         width: 100%;
     }
-}
+    .cuerpo_model{
+        padding: 0.625rem;
+        margin-top: -3.125rem;
+        &_contenedor{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_calecita{
+                width: 100%;
+            }
+            .primeraDescripcion{
+                margin-top: 1.875rem;
+                width: 100%;
+        }
+        }
+    }
 @media screen and (max-width: 350px){
     .logo{
         img{
@@ -109,6 +124,7 @@
         padding-right: 0.625rem;
         padding-left:0.625rem;
     }
+}
 }
 @media screen and (max-width: 275px){
     .card_destacados{
