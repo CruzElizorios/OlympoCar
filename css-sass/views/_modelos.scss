@@ -1,0 +1,86 @@
+.cuerpo_model{
+    grid-area: seccion;
+    background-color: $colorFondo ;
+    padding: 2.4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &_contenedor{
+        display: flex;
+        max-width: 1200px;
+        gap: 1%;
+        &_calecita{
+            width: 70%;
+            img{
+                width: 100%;
+                border-radius: 1rem;
+                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            }
+        }
+        }
+        .primeraDescripcion{
+            background-color: $color3;
+            width: 30%;
+            border-radius: 1rem;
+            padding: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            p{
+                font-size: 1.6rem;
+                color:$colorLetraTex;
+                margin: 10px;
+            }
+            .letratitu{
+                color: $colorDestacado;
+                font-size: 1.9rem;
+                margin-bottom: -3px;
+            }
+            .letraSecun{
+                font-size: 1.2rem;
+                color: $colorFooterletra;
+            }
+            .linea{
+                height: 1px;
+                background-color: rgba(0, 0, 0, 0.332);
+                width: 95%;
+                margin: 0.625rem;
+            }
+        }
+    }
+    .red_contacto{
+        background-color: $colorPrimario;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem;
+        margin-top: 1.2rem;
+        margin-bottom: 0.5rem;
+        &:hover{
+            background-color: $colorDestacado;
+            color: $colorPrimario;
+        }
+        a{
+            text-decoration: none;
+            color: $colorLetraTex;
+            font-size: 1.2rem;
+            &:hover{
+                color: white;
+            }
+            i{
+                margin-right: 5px;
+                padding: 0.5rem;
+                border-radius: 30%;
+            }
+        }
+    }
+$contacto:(
+    whatsapp: #25D366,
+    telegram: #34B7F1,
+);
+@each $redsocial, $colorred in $contacto{
+    .fa-#{$redsocial}{
+        background-color: $colorred;
+    }
+}

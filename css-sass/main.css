@@ -434,7 +434,7 @@ footer .contenedor_footer_caja_copy hr {
   justify-content: center;
   margin: auto;
   max-width: 1250px;
-  margin-top: 9.375rem;
+  margin-top: 10.375rem;
   margin-bottom: 8.25rem;
   gap: 0.625rem;
 }
@@ -525,6 +525,93 @@ footer .contenedor_footer_caja_copy hr {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.cuerpo_model {
+  grid-area: seccion;
+  background-color: #ebebeb;
+  padding: 2.4rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cuerpo_model_contenedor {
+  display: flex;
+  max-width: 1200px;
+  gap: 1%;
+}
+.cuerpo_model_contenedor_calecita {
+  width: 70%;
+}
+.cuerpo_model_contenedor_calecita img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.cuerpo_model .primeraDescripcion {
+  background-color: white;
+  width: 30%;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.cuerpo_model .primeraDescripcion p {
+  font-size: 1.6rem;
+  color: #212529;
+  margin: 10px;
+}
+.cuerpo_model .primeraDescripcion .letratitu {
+  color: blueviolet;
+  font-size: 1.9rem;
+  margin-bottom: -3px;
+}
+.cuerpo_model .primeraDescripcion .letraSecun {
+  font-size: 1.2rem;
+  color: #6c6a6a;
+}
+.cuerpo_model .primeraDescripcion .linea {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.332);
+  width: 95%;
+  margin: 0.625rem;
+}
+
+.red_contacto {
+  background-color: rgb(241, 207, 18);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.red_contacto:hover {
+  background-color: blueviolet;
+  color: rgb(241, 207, 18);
+}
+.red_contacto a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.2rem;
+}
+.red_contacto a:hover {
+  color: white;
+}
+.red_contacto a i {
+  margin-right: 5px;
+  padding: 0.5rem;
+  border-radius: 30%;
+}
+
+.fa-whatsapp {
+  background-color: #25D366;
+}
+
+.fa-telegram {
+  background-color: #34B7F1;
 }
 
 .portada_nuestraHistoria img {
@@ -639,12 +726,33 @@ footer .contenedor_footer_caja_copy hr {
     width: 55%;
   }
 }
+@media screen and (max-width: 990px) {
+  .cuerpo_model_contenedor_calecita {
+    width: 60%;
+  }
+  .cuerpo_model_contenedor .primeraDescripcion {
+    width: 40%;
+  }
+}
 @media screen and (max-width: 938px) {
   .contenedor_formulario {
     justify-content: center;
   }
   .contenedor_formulario img {
     width: 70%;
+  }
+  .cuerpo_model_contenedor {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+  }
+  .cuerpo_model_contenedor_calecita {
+    width: 70%;
+  }
+  .cuerpo_model_contenedor .primeraDescripcion {
+    margin-top: 30px;
+    width: 500px;
   }
 }
 @media screen and (max-width: 767px) {
