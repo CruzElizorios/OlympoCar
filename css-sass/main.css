@@ -526,6 +526,9 @@ footer .contenedor_footer_caja_copy hr {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.cuerpo_vehiculos_estructura .precios:hover {
+  color: blueviolet;
+}
 
 .cuerpo_model {
   grid-area: seccion;
