@@ -18,14 +18,9 @@
         &_vermas{
             width: 1200px;
             text-align: center;
-            margin-top: 0.625rem;
+            margin-top: 1rem;
             a{
                 text-decoration: none;
-                color: $colorLetra2;
-                font-size: 1.2rem;
-                &:hover{
-                    opacity: 0.8;
-                }
             }
         }
     }

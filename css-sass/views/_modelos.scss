@@ -59,15 +59,14 @@
         margin-bottom: 0.5rem;
         &:hover{
             background-color: $colorDestacado;
-            color: $colorPrimario;
+            a{
+                color: white;
+            }
         }
         a{
             text-decoration: none;
             color: $colorLetraTex;
             font-size: 1.2rem;
-            &:hover{
-                color: white;
-            }
             i{
                 margin-right: 0.313rem;
                 padding: 0.5rem;
