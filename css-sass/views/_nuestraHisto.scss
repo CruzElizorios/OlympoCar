@@ -15,7 +15,7 @@
         margin: 1.25rem;
         padding: 0.625rem;
         margin-top: 2.5rem;
-        background-image: url("../../assets/imagenes/resaltadorrecort.webp");
+        background-image: url(../assets/imagenes/resaltadorrecort.webp);
         background-repeat: no-repeat;
         background-size: 25.625rem;
         background-position-x: -1.25rem;
@@ -23,7 +23,9 @@
     }
     p{
         font-size: 1.5rem;
-        background-image: url("../../assets/imagenes/resaltadorrecort.png");
+        background-image: url("../../assets/imagenes/kiaDerrape.png");
+        background-size: cover;
+        background-position-y: -4.25rem;
     }
     &_contenedor{
         display: flex;
