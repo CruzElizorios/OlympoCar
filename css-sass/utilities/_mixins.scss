@@ -13,19 +13,26 @@
             box-shadow: 5px 10px 16px 5px rgba(0, 0, 0, 0.563);
             cursor: pointer;
         }
-        img{
-            width: 95%;
-            border-radius: 2rem;
-            border: solid 0.5px black;
-        }
-        .linea{
-            height: 1px;
-            background-color: rgba(0, 0, 0, 0.332);
-            width: 95%;
-            margin: 0.625rem;
-        }
-        p{
-            font-size: 1.5rem;
-            color: $color;
+        a{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            img{
+                width: 95%;
+                border-radius: 2rem;
+                border: solid 0.5px black;
+            }
+            .linea{
+                height: 1px;
+                background-color: rgba(0, 0, 0, 0.332);
+                width: 95%;
+                margin: 0.625rem;
+            }
+            p{
+                font-size: 1.5rem;
+                color: $color;
+            }
         }
 }

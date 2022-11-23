@@ -69,18 +69,25 @@
   box-shadow: 5px 10px 16px 5px rgba(0, 0, 0, 0.563);
   cursor: pointer;
 }
-.card_vehiculos img {
+.card_vehiculos a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.card_vehiculos a img {
   width: 95%;
   border-radius: 2rem;
   border: solid 0.5px black;
 }
-.card_vehiculos .linea {
+.card_vehiculos a .linea {
   height: 1px;
   background-color: rgba(0, 0, 0, 0.332);
   width: 95%;
   margin: 0.625rem;
 }
-.card_vehiculos p {
+.card_vehiculos a p {
   font-size: 1.5rem;
   color: #212529;
 }
@@ -101,18 +108,25 @@
   box-shadow: 5px 10px 16px 5px rgba(0, 0, 0, 0.563);
   cursor: pointer;
 }
-.card_destacados_vehiculos img {
+.card_destacados_vehiculos a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.card_destacados_vehiculos a img {
   width: 95%;
   border-radius: 2rem;
   border: solid 0.5px black;
 }
-.card_destacados_vehiculos .linea {
+.card_destacados_vehiculos a .linea {
   height: 1px;
   background-color: rgba(0, 0, 0, 0.332);
   width: 95%;
   margin: 0.625rem;
 }
-.card_destacados_vehiculos p {
+.card_destacados_vehiculos a p {
   font-size: 1.5rem;
   color: #212529;
 }
@@ -136,18 +150,25 @@
   box-shadow: 5px 10px 16px 5px rgba(0, 0, 0, 0.563);
   cursor: pointer;
 }
-.card_destacados img {
+.card_destacados a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.card_destacados a img {
   width: 95%;
   border-radius: 2rem;
   border: solid 0.5px black;
 }
-.card_destacados .linea {
+.card_destacados a .linea {
   height: 1px;
   background-color: rgba(0, 0, 0, 0.332);
   width: 95%;
   margin: 0.625rem;
 }
-.card_destacados p {
+.card_destacados a p {
   font-size: 1.5rem;
   color: #212529;
 }
@@ -526,9 +547,6 @@ footer .contenedor_footer_caja_copy hr {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.cuerpo_vehiculos_estructura .precios:hover {
-  color: blueviolet;
-}
 
 .cuerpo_model {
   grid-area: seccion;
@@ -629,7 +647,7 @@ footer .contenedor_footer_caja_copy hr {
   grid-area: seccion;
   background-color: #ebebeb;
   padding: 2.5rem;
-  padding-bottom: 6.25rem;
+  padding-bottom: 8.25rem;
   padding-top: 6.25rem;
 }
 .cuerpo_nuestraHistoria h2 {
@@ -637,7 +655,7 @@ footer .contenedor_footer_caja_copy hr {
   margin: 1.25rem;
   padding: 0.625rem;
   margin-top: 2.5rem;
-  background-image: url(../../assets/imagenes/resaltadorrecort.png);
+  background-image: url("../../assets/imagenes/resaltadorrecort.png");
   background-repeat: no-repeat;
   background-size: 25.625rem;
   background-position-x: -1.25rem;
