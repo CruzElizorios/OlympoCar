@@ -2,6 +2,8 @@
     font-size: 1.2rem;
     background-color: $colorPrimario ;
     border-radius: 1rem;
+    border-color: rgb(245, 11, 11);
+    border: 15px;
     padding: 0.313rem;
     margin-top: 0.313rem;
     width: 30%;
@@ -13,6 +15,7 @@
     font-size: 1.2rem;
     background-color: $colorPrimario;
     border-radius: 1rem;
+    // border: 5px solid greenyellow;
     &:hover{
         background-color: rgba(147, 46, 242, 0.682);
         transition: 0.5s;

@@ -17,6 +17,8 @@
   font-size: 1.2rem;
   background-color: rgb(241, 207, 18);
   border-radius: 1rem;
+  border-color: rgb(245, 11, 11);
+  border: 15px;
   padding: 0.313rem;
   margin-top: 0.313rem;
   width: 30%;
@@ -253,6 +255,7 @@ button:hover .button-text {
 /*cambios carrusel bootstrap*/
 #calecita {
   max-height: 85vh;
+  width: 100%;
 }
 
 .titulo_index {
@@ -277,7 +280,7 @@ button:hover .button-text {
   color: #212529;
   position: absolute;
   top: 10%;
-  left: 25%;
+  left: 22%;
   z-index: 5;
   -webkit-animation-name: entradaTitulo2;
           animation-name: entradaTitulo2;
@@ -511,10 +514,9 @@ footer .contenedor_footer_caja_copy hr {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 6.25rem;
 }
 .cuerpo_index_destacados_vermas {
-  width: 1200px;
+  width: 100%;
   text-align: center;
   margin-top: 1rem;
 }
@@ -734,9 +736,6 @@ footer .contenedor_footer_caja_copy hr {
 }
 .cuerpo_nuestraHistoria p {
   font-size: 1.5rem;
-  background-image: url("../../assets/imagenes/kiaDerrape.png");
-  background-size: cover;
-  background-position-y: -4.25rem;
 }
 .cuerpo_nuestraHistoria_contenedor {
   display: flex;
@@ -896,7 +895,10 @@ footer .contenedor_footer_caja_copy hr {
     font-size: 1.5rem;
   }
   .titulo2_index {
-    font-size: 1.5rem;
+    top: 10%;
+    left: 8%;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px 7px rgb(255, 255, 23);
   }
   .cuerpo_index h2 {
     font-size: 1.7rem;

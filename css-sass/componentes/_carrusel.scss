@@ -1,6 +1,7 @@
 /*cambios carrusel bootstrap*/
 #calecita{
     max-height: 100vh - 15vh; 
+    width: 100%;
 }
 .titulo_index{
     color: $colorLetra1;
@@ -21,7 +22,7 @@
     color: $colorLetraTex;
     position: absolute;
     top: 10%;
-    left: 25%;
+    left: 22%;
     z-index: 5;
     animation-name: entradaTitulo2;
     animation-duration: 5s;
