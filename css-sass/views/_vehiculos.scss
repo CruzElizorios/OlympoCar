@@ -15,8 +15,8 @@
     grid-area: seccion;
     background-color: $colorFondo;
     padding-top: 4rem;
-    padding-bottom: 12.5rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.015), rgba(0, 0, 0, 0.015)), url(../assets/imagenes/4877010.jpg);
+    padding-bottom: 6.5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.015), rgba(0, 0, 0, 0.015)), url(../assets/imagenes/fondo.jpg);
     background-size: auto;
 
     h1 {
@@ -29,6 +29,7 @@
         font-size: 1.7rem;
         margin-left: 2%;
         padding: 0.625rem;
+        padding-top: 2.5rem;
     }
 
     .dest {

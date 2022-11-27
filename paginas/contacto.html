@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css-sass/main.css">
 </head>
 <body class="estructura_contacto">
@@ -62,15 +63,15 @@
     </header>
     <main class="cuerpo_contacto">
         <section>
-                <h2>
+                <h2 class="wow animate__animated animate__zoomIn">
                     Contacto
                 </h2>
-                <h3>
+                <h3 class="wow animate__animated animate__zoomIn" data-wow-delay="2s">
                     ¿quieres vender tu vehiculo🚘​? 
                 </h3>
-                <h4>completa con tus datos ​​📝​ y una breve descripcion del mismo, nos estaremos comunicando​📞​ 
+                <h4 class="wow animate__animated animate__zoomIn" data-wow-delay="4s">completa con tus datos ​​📝​ y una breve descripcion del mismo, nos estaremos comunicando​📞​ 
                 </h4>
-            <div class="contenedor_formulario">
+            <div class="contenedor_formulario wow animate__animated animate__slideInUp" data-wow-delay="7s">
                 <div>
                     <form >
                             <div>
@@ -151,6 +152,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>
