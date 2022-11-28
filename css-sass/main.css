@@ -118,17 +118,17 @@ button:hover .button-text {
 
 .botonArriba {
   position: fixed;
-  bottom: 20px;
-  right: 5px;
+  bottom: 1.25rem;
+  right: 0.313rem;
   z-index: 1;
   background-color: blueviolet;
   border-radius: 100%;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .botonArriba img {
-  width: 40px;
-  margin-top: -2.5px;
+  width: 2.5rem;
+  margin-top: -0.156rem;
 }
 .botonArriba:hover {
   background-color: rgb(241, 207, 18);
@@ -571,7 +571,7 @@ footer .contenedor_footer_caja_copy hr {
   background-color: #ebebeb;
   padding-top: 4rem;
   padding-bottom: 6.5rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.015), rgba(0, 0, 0, 0.015)), url(../assets/imagenes/fondo.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.015), rgba(0, 0, 0, 0.015)), url(../assets/imagenes/fondo.webp);
   background-size: auto;
 }
 .cuerpo_vehiculos h1 {
